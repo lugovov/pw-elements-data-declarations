@@ -309,6 +309,7 @@
             <Field Name="RequiredLevel" Type="Int32" />
             <Field Name="RequiredRank" Type="Int32" />
             <Field Name="Grade" Type="Int32" />
+            <Field Name="Unknown" Type="Int32" />
             <Field Name="FixedProps" Type="Int32" />
             <Field Name="MinPhysicalAttack" Type="Int32" />
             <ValueRangeInt Name="MaxPhysicalAttack" />
@@ -326,9 +327,11 @@
             <Array Name="CraftSocketChances" Type="Single" Length="3" />
             <Array Name="BonusChances" Type="Single" Length="5" />
             <Field Name="UniqueAddonChance" Type="Single" />
+            <Field Name="Unknown2" Type="Int32" />
             <Chance Name="DropBonuses" Count="32" />
             <Chance Name="CraftBonuses" Count="32" />
             <Chance Name="UniqueBonuses" Count="16" />
+            <Array Name="Unknown3" Type="Int32" Length="3" />
             <ValueRangeInt Name="DropDurability" />
             <Field Name="DecomposePrice" Type="Int32" />
             <Field Name="DecomposeTime" Type="Int32" />
@@ -382,6 +385,7 @@
             <Field Name="SellPrice" Type="Int32" />
             <Field Name="BuyPrice" Type="Int32" />
             <Field Name="RepairPrice" Type="Int32" />
+            <Field Name="Unknown" Type="Int32" />
             <Array Name="DropSocketChances" Type="Single" Length="5" />
             <Array Name="CraftSocketChances" Type="Single" Length="5" />
             <Array Name="BonusChances" Type="Single" Length="4" />
@@ -442,6 +446,7 @@
             <Field Name="SellPrice" Type="Int32" />
             <Field Name="BuyPrice" Type="Int32" />
             <Field Name="RepairPrice" Type="Int32" />
+            <Field Name="Unknown" Type="Int32" />
             <Array Name="BonusChances" Type="Single" Length="4" />
             <Chance Name="DropBonuses" Count="32" />
             <Chance Name="CraftBonuses" Count="32" />
@@ -584,6 +589,7 @@
             <Field Name="ClassMask" Type="Int32" />
             <Field Name="DecomposeToItemId" Type="Int32" />
             <Field Name="DecomposeItemAmount" Type="Int32" />
+            <Array Name="BonusChances" Type="Int32" Length="31" />
             <Field Name="MaxCount" Type="Int32" />
             <Field Name="HasGuid" Type="Int32" />
             <Field Name="ProcType" Type="Int32" />
